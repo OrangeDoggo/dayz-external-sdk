@@ -135,13 +135,13 @@ public:
 class table_t
 {
 public:
-	virtual entity_t* get(uint32_t idx)
+	entity_t* get(uint32_t idx)
 	{
 		return memory->read<entity_t*>(this + (idx * sizeof(void*)));
 	}
 };
 
-class weird_table_t : public table_t
+class weird_table_t
 {
 public:
 	uint32_t flag(uint32_t idx)
