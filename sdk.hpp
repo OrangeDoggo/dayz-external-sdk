@@ -149,7 +149,7 @@ public:
 		return memory->read<uint32_t>(this + (idx * 0x18));
 	}
 
-	entity_t* get(uint32_t idx) override
+	entity_t* get(uint32_t idx)
 	{
 		return memory->read<entity_t*>(this + ((idx * 0x18) + 0x8));
 	}
