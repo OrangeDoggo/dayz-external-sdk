@@ -2,7 +2,8 @@
 
 namespace offsets
 {
-
+	constexpr auto anim_system = 0xE24A18;
+	
 	namespace world {
 		constexpr auto instance = 0x414A858;
 		constexpr auto near_entity_table = 0xEC8;
