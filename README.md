@@ -1,4 +1,4 @@
-External SDK for DayZ, enough to make esp and bullet tp, includes offsets for 1.20 although could be outdated as I last checked March 6th. Could be made cleaner and some things done better but good enough.
+External SDK for DayZ, enough to make esp and bullet tp, includes offsets for 1.22. Could be made cleaner and some things done better but good enough.
 
 Usage:
 ```cpp
